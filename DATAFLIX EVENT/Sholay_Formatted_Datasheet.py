@@ -33,7 +33,7 @@ def set_bg_local(image_file):
 st.set_page_config(page_title="Sholay (1975) - Detailed Dashboard", layout="wide")
 
 # Set Sholay-themed local background
-set_bg_local(r"C:\Users\jadej\OneDrive\Desktop\sholay_bakcground.png")
+set_bg_local(r"C:\Users\jadej\OneDrive\Desktop\WhatsApp Image 2025-09-15 at 15.00.46_c9893848.jpg")
 
 st.title("🎥 Sholay (1975) - Detailed Dashboard")
 
@@ -67,7 +67,7 @@ with col1:
     )
     # Local cast image
     st.image(
-        r"C:\Users\jadej\OneDrive\Desktop\sholay_cast",
+        r"C:\Users\jadej\OneDrive\Desktop\WhatsApp Image 2025-09-15 at 14.42.39_f38d02ac.jpg",
         caption="Iconic Cast of Sholay",
         use_container_width=True
     )
@@ -185,4 +185,3 @@ legacy = [
 ]
 for l in legacy:
     st.markdown(f"- {l}")
-
